@@ -1,0 +1,1 @@
+<?= $this->extend('layout') ?><?= $this->section('content') ?><section class="card"><h1>Welcome, <?= esc(session()->get('full_name')) ?></h1><p>Use the POS menu to manage products, customers, staff, and sales.</p><a class="button" href="<?= site_url('sales/new') ?>">Record a sale</a></section><?= $this->endSection() ?>
